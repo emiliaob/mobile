@@ -1,0 +1,91 @@
+body{
+    background-color: #96bfff;
+    font-family: 'Montserrat', serif;
+
+}
+h2, h3{ 
+    font-weight: bold;
+    width: 90%;
+    text-align: center;
+}
+header{
+    background-color: #ffe045;
+}
+header h1{
+    text-align: center;
+    font-size: 3em;
+}
+.container, .container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    row-gap: 5px;
+}
+.book{
+    max-height: 140px;
+    overflow: scroll;
+    width: 90%;
+    border: 2px solid #FFFFFF;
+}
+nav li{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: white; */
+    /* border: 2px solid white; */
+    /* border-radius: 15px; */
+
+    /* Transform when clicked on
+    Add little finger pointer when clicked on
+    Need to figure out how to do it when on a page */
+}
+.active{
+ text-transform: uppercase;
+ color: darkblue;
+ /* Make it so when there is a pointing finger to the page that you are on  */
+}
+
+div header{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.picture{
+    max-width: 100%;
+    height: auto; 
+}
+.all_reviews{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* What do I need to do the center the content?? */
+}
+footer{
+    background-color: white;
+    /* background-image: url("../images/FooterBooks.png"); */
+    height: 80%;
+    text-align: center;
+    color: #000 ;  
+}
+
+img{
+  width: 16em;  
+  border: 2px solid #ffffff;
+}
+
+/* Need to style the footer to be centered
+Colored- background and text
+Also need to pick a google font and main text size */
+/* On about me page give images a border
+Shrink them  */
+/* Want flex to be used on the tips page */
+.tips{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+}
+/* Want to make the tips page card like! */
