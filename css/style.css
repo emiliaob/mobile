@@ -7,6 +7,7 @@ h2, h3{
     font-weight: bold;
     width: 90%;
     text-align: center;
+    margin: 5px auto 5px auto;
 }
 header{
     background-color: #ffe045;
@@ -23,12 +24,14 @@ header h1{
     text-align: center;
     margin: auto;
     row-gap: 5px;
+   
 }
 .book{
     max-height: 140px;
     overflow: scroll;
     width: 90%;
     border: 2px solid #FFFFFF;
+    border-radius: 15px;
 }
 nav li{
     display:flex;
@@ -44,27 +47,21 @@ nav li{
 }
 .active{
  text-transform: uppercase;
- color: darkblue;
- /* Make it so when there is a pointing finger to the page that you are on  */
+ border: dashed 2px #ffffff;
 }
 
 div header{
     background-color: #FFFFFF;
     text-align: center;
 }
-.picture{
-    max-width: 100%;
-    height: auto; 
-}
+
 .all_reviews{
     display: flex;
     flex-direction: column;
     align-content: center;
-    /* What do I need to do the center the content?? */
 }
 footer{
     background-color: white;
-    /* background-image: url("../images/FooterBooks.png"); */
     height: 80%;
     text-align: center;
     color: #000 ;  
@@ -75,17 +72,52 @@ img{
   border: 2px solid #ffffff;
 }
 
-/* Need to style the footer to be centered
-Colored- background and text
-Also need to pick a google font and main text size */
-/* On about me page give images a border
-Shrink them  */
-/* Want flex to be used on the tips page */
+
 .tips{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    width: 90%;
+    
+    
+   
 }
+.tip{
+    margin: 12px;
+    background-color: #ffe045;
+    flex-basis: 400px;
+    border-radius: 15px;
+
+}
+.tip header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.center{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+    height: auto; }
+.picture{
+    transform: rotate(-20deg);
+}
+    
+
+.bio{
+    border: 2px solid #ffe045;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90% ;
+    
+}
+
+/* Want to tip the pictures on the about me page to be going to alternate side angles */
 /* Want to make the tips page card like! */
+/* Need to add in the book icon before turn in the mobile view */
